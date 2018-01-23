@@ -1,0 +1,289 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+
+body {
+    color: #fff;
+    background-color: #3E3E3E;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.navbar-default {
+    background-color: #3E3E3E;
+    border:0;
+}
+
+.navbar {
+    font-family: 'Oswald', sans-serif;
+    border-radius: 0;
+    margin:0;
+}
+
+.navbar-default .navbar-brand {
+    color: #FCE4EC;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #F1F8E9;
+    background-color: #3E3E3E;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #F1F8E9;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ccc;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: RGBA(240, 244, 195, 0.25);
+}
+
+#ImgWo {
+    width:100%;
+    height: 400px;
+    background-image: url("images/headerBg.jpg");
+}
+
+#ImgWo h1 {
+    color : #F1F8E9;
+    font-family: 'Lobster', cursive;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 2px 2px #000;
+}
+
+#ImgWo p {
+    margin: 0 0 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-top: 10%;
+}
+
+.experience {
+    background-color: #3E3E3E;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#htmlEx {
+    text-align: center;
+}
+
+#exBox {
+    background-color: #3E3E3E;
+    font-family: 'Oswald', sans-serif;
+}
+
+#exBox p {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 10px;
+    text-shadow: 2px 2px #BD2169;
+}
+
+.Projects {
+    background-image: url("images/bgProjects.jpg");
+    text-align: center;
+    padding-bottom: 20px;
+    box-shadow: inset 1px 80px 100px #000;
+}
+
+.Projects #ProjectsTitle p {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 10px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px #BD2169;
+}
+
+.Projects h1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Projects button {
+    border: 1px solid;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.28);
+    color: #F3F3F3;
+}
+
+.Projects button:hover {
+    background-color: #FFFFFF;
+    color: rgb(0, 0, 0);
+    transition: all ease 1s;
+}
+
+.Projects #proj {
+    background-color: rgba(0, 0, 0, 0.51);
+    border: 0;
+    border-bottom: 5px solid #4A4A4A;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+}
+
+.Projects img {
+    transition: all ease 1s;
+    opacity: 0.3;
+}
+
+.Projects img:hover {
+    opacity: 1;
+}
+
+.about #aboutTitle  h1 {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 10px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px #BD2169;
+}
+
+#justMe {
+    max-width: 200px;
+}
+
+.about {
+    padding-bottom: 20px;
+}
+
+.about p {
+    background-color: #303030;
+    padding: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+}
+
+.about #AboutSubTitle {
+    width:201px;
+    border-bottom: solid 5px;
+}
+
+.contactus {
+    background-image: url(images/headerBg-c.jpg);
+    box-shadow: inset 1px 10px 150px #000000;
+}
+
+.contactus #ctTitle {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 10px;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px #BD2169;
+}
+
+.contactus {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.contactus a {
+    color: #ffbd00;
+    text-decoration: none;
+    background-color: RGBA(0, 0, 0, 0.46);
+    padding: 5px;
+}
+
+.footerEnd {
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:focus {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.progress-bar-success {
+    background-color: #5D5F5D;
+}
+
+.progress-bar-info {
+    background-color: #BD2169;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #FFF;
+    background-color: rgb(179, 12, 89);
+}
+
+.navbar-default .navbar-nav > li > a {
+    transition: all ease 0.5s;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #F1F8E9;
+    background-color: rgb(179, 12, 89);
+}
+
+.navbar-brand {
+        padding : 10px 15px;
+    }
+
+@media (min-width: 768px) {
+    
+.navbar-nav {
+    float: right;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    .Projects #proj {
+        height:200px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .about p {
+        font-size: 15px;
+    }
+    
+    .navbar-brand {
+        padding : 15px 15px;
+    }
+}
